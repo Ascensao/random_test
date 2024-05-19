@@ -36,4 +36,4 @@ jobs:
         git commit -m 'Add random number to text.txt'
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
